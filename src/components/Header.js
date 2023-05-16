@@ -1,3 +1,5 @@
+import { APP_CONSTANTS } from '@/constants/commonConstants'
+import { CAREER_PAGE_PATH, EVENT_PAGE_PATH, HOME_PAGE_PATH, NEWS_PAGE_PATH, TALENT_PAGE_PATH } from '@/constants/pathConstants'
 import Link from 'next/link'
 
 function Header() {
@@ -5,7 +7,7 @@ function Header() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link href="/">
-          <span className="navbar-brand">My Website</span>
+          <span className="navbar-brand">{APP_CONSTANTS.title}</span>
         </Link>
 
         <button
@@ -23,18 +25,28 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link href="/">
-                <span className="nav-link">Home</span>
+              <Link href={HOME_PAGE_PATH.path}>
+                <span className="nav-link">{HOME_PAGE_PATH.description}</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about">
-                <span className="nav-link">About</span>
+            <Link href={NEWS_PAGE_PATH.path}>
+                <span className="nav-link">{NEWS_PAGE_PATH.description}</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact">
-                <span className="nav-link">Contact</span>
+            <Link href={EVENT_PAGE_PATH.path}>
+                <span className="nav-link">{EVENT_PAGE_PATH.description}</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+            <Link href={CAREER_PAGE_PATH.path}>
+                <span className="nav-link">{CAREER_PAGE_PATH.description}</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+            <Link href={TALENT_PAGE_PATH.path}>
+                <span className="nav-link">{TALENT_PAGE_PATH.description}</span>
               </Link>
             </li>
           </ul>

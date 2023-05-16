@@ -1,7 +1,7 @@
 export default function page() {
     return (
         <div>
-            Talent Page
+            Career Page
         </div>
     );
 }
