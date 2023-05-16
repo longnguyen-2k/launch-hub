@@ -19,27 +19,27 @@ export default function Footer() {
             <ul>
               <li>
               <Link href={HOME_PAGE_PATH.path}>
-                <span className="nav-link">{HOME_PAGE_PATH.description}</span>
+                <span >{HOME_PAGE_PATH.description}</span>
               </Link>              
               </li>
               <li>
               <Link href={NEWS_PAGE_PATH.path}>
-                <span className="nav-link">{NEWS_PAGE_PATH.description}</span>
+                <span >{NEWS_PAGE_PATH.description}</span>
               </Link>              
               </li>
               <li>
               <Link href={EVENT_PAGE_PATH.path}>
-                <span className="nav-link">{EVENT_PAGE_PATH.description}</span>
+                <span >{EVENT_PAGE_PATH.description}</span>
               </Link>              
               </li>
               <li>
               <Link href={CAREER_PAGE_PATH.path}>
-                <span className="nav-link">{CAREER_PAGE_PATH.description}</span>
+                <span >{CAREER_PAGE_PATH.description}</span>
               </Link>              
               </li>
               <li>
               <Link href={TALENT_PAGE_PATH.path}>
-                <span className="nav-link">{TALENT_PAGE_PATH.description}</span>
+                <span >{TALENT_PAGE_PATH.description}</span>
               </Link>              
               </li>
             </ul>
