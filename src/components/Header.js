@@ -1,5 +1,5 @@
-import { APP_CONSTANTS } from '@/constants/commonConstants'
-import { CAREER_PAGE_PATH, EVENT_PAGE_PATH, HOME_PAGE_PATH, NEWS_PAGE_PATH, TALENT_PAGE_PATH } from '@/constants/pathConstants'
+import { APP_CONSTANTS } from '../constants/commonConstants'
+import { CAREER_PAGE_PATH, EVENT_PAGE_PATH, HOME_PAGE_PATH, NEWS_PAGE_PATH, TALENT_PAGE_PATH } from '../constants/pathConstants'
 import Link from 'next/link'
 
 function Header() {
