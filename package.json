@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@mdi/js": "^7.2.96",
     "@mdi/react": "^1.6.1",
     "antd": "^5.5.0",
@@ -18,6 +19,7 @@
     "next-auth": "^4.22.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "sass": "^1.62.1"
   }
 }
