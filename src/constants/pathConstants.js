@@ -6,3 +6,4 @@ export const NEWS_PAGE_PATH = {path:'/news',description:'News'};
 export const NEWS_POSTS_PAGE_PATH = {path:'/news/posts',description:'News posts'};
 export const TALENT_PAGE_PATH = {path:'/talents',description:'Talent'};
 
+

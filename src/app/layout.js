@@ -6,18 +6,22 @@ import Footer from '../components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Launch Hub',
-  description: 'Launch Hub',
+  title: 'Bussiness Information',
+  description: 'Bussiness Information',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
+        <div className="container">
         <Header></Header>
-        {children}
+        <div className='fullscreen-body'>
+          {children}
+        </div>
         <Footer></Footer>
-        </body>
+        </div>
+      </body>
     </html>
   )
 }
