@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { Card, Row, Col, Tag } from 'antd';
-import styles from './page.module.css'
+import styles from '../../styles/event.module.css'
 const GalleryEvents = () => {
     const galleryItems = [
         {

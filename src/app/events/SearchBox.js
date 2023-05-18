@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import SearchBar from './SearchBar';
-import styles from './page.module.css'
+import styles from '../../styles/event.module.css'
 import DropdownList from './DropdownList';
 import { Row } from 'antd';
 const SearchBox = () => {
