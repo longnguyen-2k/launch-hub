@@ -44,6 +44,7 @@
   --color-border:#e8e8ea;
   --color-bg:#F2F4F7;
   --color-author-text:#97989F;
+  --color--pagination-bullet: #F1F1F1;
 }
 
 @media (prefers-color-scheme: dark) {

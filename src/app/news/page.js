@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import '../../styles/news/news.scss';
 import CardItem from './component/CardItem';
+import Slide from './component/Slide';
+import LoadMore from 'src/components/buttons/LoadMore';
 
 export default function Page() {
     // Dummy data for multiple card items
@@ -118,7 +120,7 @@ export default function Page() {
             }
         },
 
-        
+
     ]
 
     const loadMore = () => {
@@ -128,6 +130,13 @@ export default function Page() {
     return (
         <div className='container'>
             <div className='post--section'>
+                {/* {cardItems.slice(0, visibleItems).map(card => (
+                    <div className='card' key={card.id}>
+                      
+                    </div>
+                ))} */}
+                  <Slide />
+                {/* <Slide data={card}/> */}
                 <div className='post__title'>
                     <h3>Latest Post</h3>
                 </div>
@@ -139,9 +148,13 @@ export default function Page() {
                     ))}
                 </div>
                 {visibleItems < cardItems.length && (
-                    <button onClick={loadMore} type='button' className='load-more'>
-                        Load More
-                    </button>
+                    // <button onClick={loadMore} type='button' className='load-more'>
+                    //     Load More
+                    // </button>
+                    <div className="load__more">
+                        <LoadMore text="Load more" onClick={loadMore} />      
+                    </div>
+                               
                 )}
             </div>
         </div>
