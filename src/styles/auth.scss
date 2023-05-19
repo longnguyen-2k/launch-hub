@@ -1,0 +1,18 @@
+.auth__container{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.auth__content__left{
+    width: 50%;
+    height: auto;
+}
+
+.auth__content__right{
+    width: 50%;
+    height: 200px;
+    background-color: bisque;
+}
+

@@ -1,5 +1,7 @@
-import Header from '../components/Header'
 import './globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import Header from '../components/Header'
 import { Inter } from 'next/font/google'
 import Footer from '../components/Footer'
 
