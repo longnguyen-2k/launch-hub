@@ -2,7 +2,7 @@
 import React from 'react';
 import { Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import styles from './page.module.css'
+import styles from '../../styles/event.module.css'
 
 const SearchBar = () => {
   return (
