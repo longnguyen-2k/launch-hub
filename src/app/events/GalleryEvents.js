@@ -23,14 +23,15 @@ const GalleryEvents = () => {
         // Add more items as needed
     ];
     const cardCols = galleryItems.map((item, index) => (
-        <Col key={index} xs={24} sm={12} md={8} lg={6} xl={6}>
+        <Col key={index} xs={24} sm={12} md={8} lg={6} xl={6} >
             <Card
-                className={styles.gallery_card}
+                className={styles['gallery-card']}
                 hoverable
                 cover={<img alt={item.title} src={item.imageUrl} />}
             >
+                <div  className={styles['gallery-item']}> 
                 <Row>
-                    <Tag color="#4B6BFB 5%" className={styles.small_tag}
+                    <Tag color="#4B6BFB" className={styles.small_tag}
                     >
                         New
                     </Tag>
@@ -43,6 +44,8 @@ const GalleryEvents = () => {
                 <Card.Meta
                     title={<div className={styles.card_title}>{item.title}</div>}
                 />
+                <span className={styles['card_organizer']}>Organizer</span>  
+                </div>
             </Card>
         </Col>
     ));
