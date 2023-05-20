@@ -46,4 +46,103 @@
   word-wrap: break-word;
   width: 100%;
   white-space: normal;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.card_organizer{
+  word-wrap: break-word;
+  width: 100%;
+  white-space: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.text-header{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 42.86%; /* Aspect ratio of 21:9 */
+}
+
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.event-title{
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600; 
+  padding: 15px 25%;
+}
+.register-btn{
+  text-align: center;
+  background-color:rgba(255, 75, 22, 1);
+  color: white;
+}
+.register-btn2{
+  text-align: center;
+  color:rgba(255, 75, 22, 1);
+  background-color: white;
+  width: 100%;
+}
+
+.center-align{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.sub-title{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 35px 0;
+  width: 100%;
+  height: 100px;
+}
+.display-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+  text-align: center;
+  color: #181A2A;
+}
+.event-description{
+  font-size: 16px;
+  padding-top: 5px 0;
+  text-align: center;
+  color: #434C4D;
+  line-height: 19px;
+}
+.right-border > *:not(:last-child) {
+  border: none;
+  border-right: 1px solid #181A2A;
+}
+.content{
+  font-size: 24px;
+  line-height: 38px;
+  color: #475569;
+  font-weight: 400;
 }
