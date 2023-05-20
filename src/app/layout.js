@@ -14,13 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="container">
         <Header></Header>
         <div className='fullscreen-body'>
           {children}
         </div>
         <Footer></Footer>
-        </div>
       </body>
     </html>
   )

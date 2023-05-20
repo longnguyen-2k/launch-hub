@@ -4,6 +4,7 @@ import '../styles/footer.scss';
 
 export default function Footer() {
   return (
+    <div className="container">
     <footer>
       <div className="section--footer">
         <div className="footer__content">
@@ -62,5 +63,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   )
 }
