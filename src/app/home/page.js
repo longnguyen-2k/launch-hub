@@ -1,11 +1,8 @@
-import Image from 'next/image'
-import Header from '../../components/Header.js'
-import Footer from '../../components/Footer.js'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react'
+import '../../styles/home.scss'
 
-export default function Home() {
+export default function page() {
   return (
-    <main >
-    </main>
+    <div className='home__container'>page</div>
   )
 }
