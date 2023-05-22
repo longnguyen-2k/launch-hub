@@ -1,0 +1,26 @@
+.label__category {
+  border-radius: 6px;
+  background-color: rgba(75, 107, 251, 0.05);
+//   height: 2rem;
+  p {
+    // display: flex;
+    margin: 0;
+    text-align: center;
+    color: var(--color-menu);
+    font-family: var(--font-family);
+    font-weight: 500;
+  }
+}
+.label__category-bold {
+  border-radius: 6px;
+  background-color: var(--color-menu);
+  text-align: center;
+  align-items: center;
+  height: 2rem;
+  p {
+    margin: 0;
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-weight: 500;
+  }
+}

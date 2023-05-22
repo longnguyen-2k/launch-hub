@@ -9,9 +9,9 @@ const SearchBox = () => {
     <div className={styles.search_box}>
       <SearchBar />
       <Row className={styles.search_filter} >
-        <div style={{marginRight:'20px'}}>Search Filters: </div>
-        <DropdownList  style={{marginRight:'40px'}}/> 
-        <DropdownList /> 
+        <div style={{ marginRight: '20px'}}>Search Filters: </div>
+        <DropdownList style={{ marginRight: '40px' }} />
+        <DropdownList />
       </Row>
     </div>
   );

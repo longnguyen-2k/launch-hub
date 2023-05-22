@@ -10,7 +10,7 @@ const SearchBar = () => {
       className={styles.search_input}
       prefix={<SearchOutlined />}
       placeholder="Search for event"
-      style={{ width: '100%',color:'#A1A1AA',borderBottom: '1px solid #E8E8EA'  }}
+      style={{ width: '100%', color: '#A1A1AA', borderBottom: '1px solid #E8E8EA', height: "50px" }}
     />
   );
 };
