@@ -1,5 +1,4 @@
 import GalleryEvents from "./GalleryEvents";
-import SearchBar from "./SearchBar";
 import SearchBox from "./SearchBox";
 import styles from '../../styles/event.module.css';
 export default function page() {

@@ -24,6 +24,7 @@ const GalleryEvents = () => {
     ];
 
     const cardCols = galleryItems.map((item, index) => (
+       
         <Col key={index} xs={24} sm={12} md={8} lg={6} xl={6}>
             <Card
                 className={styles['gallery-card']}
