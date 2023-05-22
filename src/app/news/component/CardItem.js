@@ -8,7 +8,7 @@ export default function CardItem({ data }) {
     return (
         <div>
             <div className='card__image'>
-                <img src={imageData} alt />
+                <img src={imageData} />
             </div>
             <div className='card__content'>
                 <div className='card__category'><LabelCategory classNames="label__category" text={category}/></div>
@@ -16,7 +16,7 @@ export default function CardItem({ data }) {
                 <div className='card__author'>
                     <div className='card__author__left'>
                         <div className='author__image'>
-                            <img src={author.image} alt />
+                            <img src={author.image} />
                         </div>
                         <p> {author.name}</p>
                     </div>

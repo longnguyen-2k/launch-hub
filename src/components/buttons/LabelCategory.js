@@ -8,7 +8,3 @@ export default function LabelCategory({ text, classNames }) {
         </div>
     );
 }
-
-LabelCategory.defaultProps = {
-    text: "Technology",
-};

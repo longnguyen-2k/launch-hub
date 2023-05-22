@@ -8,6 +8,3 @@ export default function LoadMore({ text, onClick }) {
         </button>
     )
 }
-LoadMore.defaultProps = {
-    text: "Load More",
-};

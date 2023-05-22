@@ -18,7 +18,7 @@ export default function Header() {
           <Link href="/">
             <img src="/image/logo.png" alt="me" />
           </Link>
-          <ul>
+          {/* <ul>
             <li>
               <Link href={HOME_PAGE_PATH.path}>
                 {HOME_PAGE_PATH.description}
@@ -44,7 +44,7 @@ export default function Header() {
                 <span>{TALENT_PAGE_PATH.description}</span>
               </Link>
             </li>
-          </ul>
+          </ul> */}
           <div className="header__icon">
             <Link href="/auth/signin">
               <Icon path={mdiAccountOutline} size={1} />
