@@ -6,6 +6,7 @@ import Slide from './component/Slide';
 import LoadMore from 'src/components/buttons/LoadMore';
 
 export default function Page() {
+
     // Dummy data for multiple card items
     const [visibleItems, setVisibleItems] = useState(9);
     const cardItems = [
@@ -135,7 +136,7 @@ export default function Page() {
                       
                     </div>
                 ))} */}
-                  <Slide />
+                <Slide />
                 {/* <Slide data={card}/> */}
                 <div className='post__title'>
                     <h3>Latest Post</h3>
@@ -152,9 +153,9 @@ export default function Page() {
                     //     Load More
                     // </button>
                     <div className="load__more">
-                        <LoadMore text="Load more" onClick={loadMore} />      
+                        <LoadMore text="Load more" onClick={loadMore} />
                     </div>
-                               
+
                 )}
             </div>
         </div>
