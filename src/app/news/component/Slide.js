@@ -1,10 +1,13 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "../../../styles/news/slide.scss";
 import "../../../styles/news/newscard.scss";
+import '../../../styles/button/labelcategory.scss';
 import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import LabelCategory from 'src/components/buttons/LabelCategory';
+
 
 export default function Slide() {
     const cardItems = [
@@ -77,7 +80,7 @@ export default function Slide() {
                             <div className="swiper__description">
                                 <div className="swiper__content">
                                     <div className="swiper__category">
-                                        <p>{item.category}</p>
+                                       <LabelCategory classNames="label__category-bold" text={item.category} />
                                     </div>
                                     <h3 className="swiper__title">{item.title}</h3>
                                     <div className="swiper__author">

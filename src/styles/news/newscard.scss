@@ -48,16 +48,6 @@
       padding: 1.2rem 0;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      border-radius: 6px;
-
-      p {
-        background-color: rgba(75, 107, 251, 0.05);
-        margin: 0;
-        text-align: center;
-        color: var(--color-menu);
-        font-family: var(--font-family);
-        font-weight: 500;
-      }
     }
     .card__title {
       margin: 0;

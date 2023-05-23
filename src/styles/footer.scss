@@ -58,9 +58,36 @@ h5 {
     color: var(--color-menu);
   }
 }
+.footer__button{
+  background: #007C89;
+  color: #fff;
+  font-weight: 500;
+  width: 20rem;
+  height: 40px;
+  margin-top: 18px;
+  border-radius: 6px;
+  border: 1px solid #E8E8EA;
+
+}
 
 .footer__bottom {
-  padding-top: 40px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+// .footer__bottom-left{
+//   display:flex;
+//   grid-gap:1.2rem;
+//   .footer__logo{
+//     border-radius: 50%;
+//   }
+//   .footer__copyright{
+
+//   }
+// }
+.footer__bottom-right{
+  display:flex;
+  border-right: 1px solid #E8E8EA;
 }
 li {
   padding-top: 0.8rem;
