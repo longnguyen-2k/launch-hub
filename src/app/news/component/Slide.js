@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import "../../../styles/news/slide.scss";
 import "../../../styles/news/newscard.scss";
 import '../../../styles/button/labelcategory.scss';
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import LabelCategory from 'src/components/buttons/LabelCategory';
 
@@ -72,7 +72,7 @@ export default function Slide() {
 
     return (
         <>
-            <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+            <Swiper pagination={true} modules={[Pagination, Autoplay]} autoplay={true} className="mySwiper" >
                 {cardItems.map((item) => (
                     <SwiperSlide key={item.id}>
                         <div className="swiper__block">
