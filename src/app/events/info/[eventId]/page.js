@@ -3,6 +3,8 @@ import styles from '../../../../styles/event.module.css'
 import ResgiterPage from "./RegisterPageBtn";
 import EventInfomation from "./EventInformation";
 import ResgiterPage2 from "./RegisterPageBtn2";
+import ShareBtn from "./SharedBtn";
+import CarouselEvents from "./Carousel";
 export default function page() {
     const item = {
         title: "ttt",
@@ -22,7 +24,10 @@ export default function page() {
             <h2 className={styles['sub-title']}> About this event</h2>
             <p className={styles['content']}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac. Posuere enim, mi pharetra neque proin dictum amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac. Posuere enim, mi pharetra neque proin dictum amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis. Mauris aliquet faucibus iaculis dui vitae ullamcorper ac. Posuere enim, mi pharetra neque proin dictum amet. </p>
             <ResgiterPage2/>
-
+            <h2 className={styles['sub-title']}> Share with friends</h2>
+            <ShareBtn/>
+            <h2 className={styles['sub-title']}>Other events you might like </h2>
+            <CarouselEvents/>
         </div>
     );
 }
