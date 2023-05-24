@@ -125,6 +125,7 @@ a {
   width: 8px !important; /* Set the width of the dots */
   height: 8px !important; /* Set the height of the dots */
   border-radius: 50% !important; /* Make the dots circular */
+  background: #181A2A !important;
 }
 .custom-dots li.slick-active {
   width: 16px !important;

@@ -156,7 +156,6 @@
   line-height: 38px;
   color: #475569;
   font-weight: 400;
-}
   padding: 30px 0;
 }
 
@@ -185,4 +184,6 @@
   padding-right: 10px; /* Apply padding to the last icon */
 }
 
-
+.gallery-item > *:not(:last-child) {
+  padding-bottom: 10px;
+}
