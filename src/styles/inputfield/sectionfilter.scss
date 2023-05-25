@@ -1,0 +1,29 @@
+.v-section__filter {
+  .v-row {
+    justify-content: space-between;
+   
+  }
+  .v-text-field {
+    height: 3rem;
+    font-size: 1.2rem;
+    background: #ffffff;
+    border: 1px solid #e8e8ea;
+    border-radius: 5px;
+    min-width:20rem;
+  }
+
+  .v-text-field input {
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+
+  }
+
+  .v-text-field .v-input__slot {
+    background-color: var(--color-white);
+    border-radius: 8px;
+  }
+
+  .v-text-field ::placeholder {
+    font-size: 1.4rem;
+  }
+}

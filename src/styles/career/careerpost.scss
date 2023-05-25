@@ -1,0 +1,46 @@
+.block--career-post {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 16px;
+  background-color: var(--color-white);
+  border: 1px solid #E8E8EA;
+border-radius: 12px;
+  h4 {
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 28px;
+  }
+  .block__info {
+    padding: 1.6rem 0;
+    p {
+      margin: 0;
+      padding-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      span {
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: #6e7191;
+      }
+      strong {
+        padding-left: 1.4rem;
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 24px;
+        color: #6e7191;
+      }
+    }
+  }
+  .block__role {
+    max-width: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .block__btn-group{
+    display: flex;
+    justify-content: space-between;
+  }
+}
