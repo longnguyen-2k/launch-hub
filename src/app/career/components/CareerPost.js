@@ -11,9 +11,9 @@ export default function CareerPost() {
                     PixelFlow
                 </h4>
                 <div className="block__info">
-                    <p><span> <ShoppingOutlined /> Position:</span> <strong>UX Design Intern </strong></p>
-                    <p><span> <DollarOutlined /> Salary:</span> <strong>UX Design Intern </strong></p>
-                    <p><span> <EnvironmentOutlined />Location:</span> <strong>UX Design Intern </strong></p>
+                    <p><span><ShoppingOutlined /> Position:</span>    <strong>UX Design Intern </strong></p>
+                    <p><span><DollarOutlined /> Salary:</span>        <strong>UX Design Intern </strong></p>
+                    <p><span><EnvironmentOutlined /> Location:</span> <strong>UX Design Intern </strong></p>
                 </div>
             </div>
             <div className="block__right">
@@ -28,11 +28,11 @@ export default function CareerPost() {
                 <div className="block__des">
                     <p>
                         A startup that provides an AI-powered video editing platform for social media creators.
-                    </p>
+                    </p>                  
                 </div>
                 <div className="block__btn-group">
                     <Button type="secondary">Press to explore new oppoturnity</Button>
-                    <div className='share__bth'>
+                    <div className='share__btn'>
                             <ProfileOutlined />
                              <ShareAltOutlined />
                     </div>
