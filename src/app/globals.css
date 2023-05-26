@@ -115,3 +115,25 @@ a {
     color-scheme: dark;
   }
 }
+.custom-dots {
+  bottom: 10; /* Adjust the position of the dots */
+}
+.custom-dots li{
+  margin-inline: 0px !important;
+}
+.custom-dots li button {
+  width: 8px !important; /* Set the width of the dots */
+  height: 8px !important; /* Set the height of the dots */
+  border-radius: 50% !important; /* Make the dots circular */
+  background: #181A2A !important;
+}
+.custom-dots li.slick-active {
+  width: 16px !important;
+}
+.custom-dots li.slick-active button {
+  background-color: #ff4b16 !important; /* Set the active dot color */
+  width: 8px;
+}
+.slick-dots{
+  justify-content: flex-end !important;
+}
