@@ -1,0 +1,59 @@
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.view-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(105, 106, 117, 0.3);
+  border-radius: 8px;
+  margin: 24px 0;
+}
+.viewed-text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.time-role-btn {
+  text-align: center;
+  background-color: rgba(0, 124, 137, 1);
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.skill-set-btn {
+  text-align: center;
+  background-color: #f2f4f7;
+  color: #007c89;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.view-profile-btn {
+  text-align: center;
+  background-color: rgba(82, 82, 91, 1);
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-media-box {
+  display: inline-flex; /* Use inline-flex to allow wrapping */
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.social-media-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-media-button i{
+    font-size: 24px;
+}
