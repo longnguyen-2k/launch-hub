@@ -1,5 +1,5 @@
 'use client';
-import '../../styles/posts/post.scss';
+import '../../../../styles/posts/post.scss';
 import LabelCategory from 'src/components/buttons/LabelCategory';
 export default function Page() {
   return (
