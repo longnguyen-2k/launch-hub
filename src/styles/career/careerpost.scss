@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 10rem;
+    max-width: 11rem;
     padding-top: 1.4rem;
     .block__role_title {
       background-color: #f2f4f7;
@@ -60,7 +60,7 @@
         color: #007c89;
       }
     }
-    .block__number_label {
+    .block__number_label{
       background-color: #f2f4f7;
       width: 28px;
       height: 28px;
@@ -69,8 +69,12 @@
       font-weight: 400;
       font-size: 14px;
       text-align: center;
+      justify-content: center;
+      padding-top: 0.3rem;
+      display: flex;
       color: #007c89;
     }
+  
   }
   .block__des {
     padding-top: 1.6rem;
@@ -90,18 +94,18 @@
     button {
       width: 300px;
       height: 36px;
-      background: #52525B;
-      font-family: 'Work Sans';
+      background: #52525b;
+      font-family: "Work Sans";
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
       color: var(--color-white);
     }
-    .share__btn{
-      padding-right:2.4rem;
+    .share__btn {
+      padding-right: 2.4rem;
       display: flex;
-      gap:1.2rem;
-      align-items:center;
+      gap: 1.2rem;
+      align-items: center;
       .share__btn {
         display: flex;
         align-items: center;
@@ -110,9 +114,7 @@
       .anticon svg {
         width: 20px;
         height: 20px;
-    }
-    
-    
+      }
     }
   }
 }

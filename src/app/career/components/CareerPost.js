@@ -1,5 +1,5 @@
 'use client';
-import { ShoppingOutlined, ProfileOutlined, DollarOutlined, ShareAltOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import { ShoppingOutlined, ProfileOutlined, DollarOutlined, ShareAltOutlined, EnvironmentFilled } from '@ant-design/icons';
 import '../../../styles/career/careerpost.scss';
 import { Button, Link } from 'antd';
 
@@ -13,7 +13,7 @@ export default function CareerPost() {
                 <div className="block__info">
                     <p><span><ShoppingOutlined /> Position:</span>    <strong>UX Design Intern </strong></p>
                     <p><span><DollarOutlined /> Salary:</span>        <strong>UX Design Intern </strong></p>
-                    <p><span><EnvironmentOutlined /> Location:</span> <strong>UX Design Intern </strong></p>
+                    <p><span><EnvironmentFilled /> Location:</span> <strong>UX Design Intern </strong></p>
                 </div>
             </div>
             <div className="block__right">
