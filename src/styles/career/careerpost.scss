@@ -1,0 +1,121 @@
+.block--career-post {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2.4rem;
+  background-color: var(--color-white);
+  border: 1px solid #e8e8ea;
+  border-radius: 12px;
+  h4 {
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 28px;
+    padding: 1.6rem 0 0 2.8rem;
+    margin: 0;
+  }
+  .block__info {
+    padding: 1.6rem 0 0 2.8rem;
+    p {
+      margin: 0;
+      padding-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      span {
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: #6e7191;
+        display: contents;
+      }
+      strong {
+        padding-left: 1.4rem;
+        font-family: "Work Sans";
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 24px;
+        color: #6e7191;
+      }
+    }
+  }
+  .block__role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 11rem;
+    padding-top: 1.4rem;
+    .block__role_title {
+      background-color: #f2f4f7;
+      border-radius: 6px;
+      max-width: 15rem;
+      height: 30px;
+      padding: 4px 20px;
+      p {
+        font-family: "Work Sans";
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #007c89;
+      }
+    }
+    .block__number_label{
+      background-color: #f2f4f7;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      font-family: "Work Sans";
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      justify-content: center;
+      padding-top: 0.3rem;
+      display: flex;
+      color: #007c89;
+    }
+  
+  }
+  .block__des {
+    padding-top: 1.6rem;
+    p {
+      font-family: "Work Sans";
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 28px;
+      color: #181a2a;
+      margin: 0;
+    }
+  }
+  .block__btn-group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.4rem;
+    padding-bottom: 1.2rem;
+    button {
+      width: 300px;
+      height: 36px;
+      background: #52525b;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--color-white);
+    }
+    .share__btn {
+      padding-right: 2.4rem;
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+      .share__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .anticon svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

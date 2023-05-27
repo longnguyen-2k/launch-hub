@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
     "antd": "^5.5.0",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "next": "^13.4.2",
     "next-auth": "^4.22.1",
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-dom": "^18.2.0"
+=======
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "sass": "^1.62.1",
+    "swiper": "^9.3.2"
+>>>>>>> 866396e138084190d7511c89c88e469091dcb533
   }
 }
