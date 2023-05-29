@@ -1,0 +1,145 @@
+.home__block1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.home__block1__left{
+    width: 40%;
+}
+
+.home__tittle1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    position: relative;
+    width: 710px;
+}
+
+.home__content1{
+    color: #4D4D4D;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.home__btn1{
+    background-color: #007C89;
+    padding: 15px 30px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.home_img1{
+    width: 58%;
+    height: 400px;
+}
+
+.home_block2{
+    border-radius: 24px;
+    background-color: #fff;
+    padding: 40px 80px 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.home__block2__left{
+    width: 50.6%;
+}
+
+.home__tittle2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #212121;
+}
+
+.home__content2{
+    color: #333333;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.home_img2{
+    width: 320px;
+    height: 405px;
+    object-fit: cover;
+    position: absolute;
+    right: 125px;
+
+}
+
+.home_img3{
+    height: 360px;
+    width: 340px;
+    object-fit: cover;
+}
+
+.home__block3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.home__block3__right{
+    width: 66%;
+    height: 450px;
+    border-radius: 24px;
+    background-color: #fff;
+    padding: 45px 100px;
+}
+
+.home_img4{
+    border-radius: 24px;
+    width: 375px;
+    height: 450px;
+}
+
+.home__line{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.home__icon{
+    background-color: #FF4B16;
+    color: #fff;
+    margin-right: 18px;
+    border-radius: 50%;
+}
+
+.home__content3{
+    color: #333333;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.home_img5{
+    width: 48%;
+    height: auto;
+}
+
+.home__block4__right{
+    width: 49%;
+    height: auto;
+}
+
+.home_img6{
+    margin-right: 16px;
+}
+
+.home_img7{
+    width: 30.7%;
+    height: auto;
+}
