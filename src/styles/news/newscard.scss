@@ -2,7 +2,7 @@
   background-color: var(--color-white);
   border: 1px solid var(--color-border);
   border-radius: 12px;
-  padding: 1.2rem 1.2rem;
+  padding: 1.6rem 1.6rem;
   .card__image {
     display: block;
     position: relative;
@@ -53,7 +53,7 @@
       margin: 0;
       font-family: var(--font-family);
       color: var(--color-text);
-      font-size: 24px;
+      font-size: 20px;
     }
     .card__author {
       display: grid;
@@ -61,6 +61,7 @@
       align-items: center;
       padding-top: 1.2rem;
       p {
+        font-size:1.4rem;
         margin: 0;
         font-family: var(--font-family);
         color: var(--color-author-text);

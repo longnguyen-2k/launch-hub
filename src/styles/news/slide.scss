@@ -5,13 +5,10 @@
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   padding-top: 3.6rem;
   //   height: 400px;
   /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   img {
     display: block;
     width: 100%;
@@ -60,9 +57,10 @@
     }
   }
   .swiper__content {
-    max-width: 30rem;
+    
     
     .swiper__category {
+      max-width: 30rem;
       padding: 1.2rem 0;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
