@@ -1,5 +1,5 @@
 'use client';
-import { ShoppingOutlined, ProfileOutlined, DollarOutlined, ShareAltOutlined, EnvironmentFilled } from '@ant-design/icons';
+import { ShoppingOutlined, ProfileOutlined, DollarOutlined, ShareAltOutlined, EnvironmentOutlined } from '@ant-design/icons';
 import '../../../styles/career/careerpost.scss';
 import { Button, Link } from 'antd';
 
@@ -12,8 +12,8 @@ export default function CareerPost() {
                 </h4>
                 <div className="block__info">
                     <p><span><ShoppingOutlined /> Position:</span>    <strong>UX Design Intern </strong></p>
-                    <p><span><DollarOutlined /> Salary:</span>        <strong>UX Design Intern </strong></p>
-                    <p><span><EnvironmentFilled /> Location:</span> <strong>UX Design Intern </strong></p>
+                    <p><span><DollarOutlined /> Salary:  </span>        <strong>500 - 600 USD</strong></p>
+                    <p><span><EnvironmentOutlined/> Location:</span> <strong>1 Ton Duc Thang, District 1, Ho Chi Minh city</strong></p>
                 </div>
             </div>
             <div className="block__right">

@@ -43,7 +43,7 @@ const Navbar = () => {
                     </div>
                     <div className="nav__icon">
                         <Link href="/auth/signin">
-                            <Icon path={mdiAccountOutline} size={1} />
+                            <Icon path={mdiAccountOutline} size={1.8} />
                         </Link>
                     </div>
                 </nav>
