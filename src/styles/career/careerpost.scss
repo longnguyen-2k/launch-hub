@@ -41,42 +41,6 @@
       }
     }
   }
-  .block__role {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 17rem;
-    padding-top: 1.4rem;
-    .block__role_title {
-      background-color: #f2f4f7;
-      border-radius: 6px;
-      height: 30px;
-      padding: 4px 20px;
-      p {
-        font-family: "Work Sans";
-        margin: 0;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        text-align: center;
-        color: #007c89;
-      }
-    }
-    .block__number_label {
-      background-color: #f2f4f7;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      font-family: "Work Sans";
-      font-weight: 400;
-      font-size: 14px;
-      text-align: center;
-      justify-content: center;
-      padding-top: 0.3rem;
-      display: flex;
-      color: #007c89;
-    }
-  }
   .block__des {
     padding-top: 1.6rem;
     p {

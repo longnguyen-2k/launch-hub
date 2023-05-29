@@ -1,97 +1,79 @@
-import { Avatar, Button, Card, Row, Space, Tag } from "antd";
-import styles from "../../styles/talent.module.css";
-import Meta from "antd/es/card/Meta";
+import {
+  ProfileOutlined,
+  ShareAltOutlined,
+  LinkedinFilled,
+  GlobalOutlined
+} from '@ant-design/icons';
+import RolesJob from 'src/components/roles/RolesJob';
+import { Button } from 'antd';
+
 import "@fortawesome/fontawesome-free/css/all.css";
+import "../../styles/talents/talentcard.scss"
 export default function CardTalent() {
-  const item = {
-    title:
-      "The Impact of Technology on the Workplace: How Technology is Changing 1",
-    imageUrl:
-      "https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg",
-  };
-
   return (
-    <Card className={styles["gallery-card"]} hoverable>
-      <Row className={styles["space-between"]}>
-        <Meta
-          avatar={
-            <Space wrap size={16}>
-              <Avatar
-                src="https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg"
-                shape="square"
-                size={64}
-              />
-            </Space>
-          }
-          title="James David"
-          description="UX Reseacher"
-        />
-        <Space>
-          <a href="#" className={styles["social-media-button"]}>
-            <i className="fab fa-linkedin"></i>
-          </a>
+    <div className="section--card-talent">
+      <div className="section__top">
+        <div className='section__top_left'>
+          <div className="card__avt">
+            <img src="https://picsum.photos/200/300" />
+          </div>
+          <div className='card__info'>
+            <div className="card__name">James David</div>
+            <div className="card__job-title">UX searcher</div>
+          </div>
+        </div>
 
-          <a href="#" className={styles["social-media-button"]}>
-            <i className="fas fa-globe"></i>
-          </a>
-        </Space>
-      </Row>
-      <div className={styles["view-container"]}>
-        <span className={styles["viewed-text"]}> Viewed by 20 people</span>
+        <div className="card__social-image">
+          <LinkedinFilled style={{ fontSize: '25px', color: '#08c' }} />
+          <GlobalOutlined style={{ fontSize: '25px' }} />
+        </div>
       </div>
-      <Row
-        className={styles["space-between"]}
-        style={{ paddingBottom: "20px" }}
-      >
-        <div>
-          <i class="fas fa-briefcase"></i>
-          <span> Experience </span>
+      <div className="card__viewed">Viewed by 20 people</div>
+      <div className="section__content">
+        <div className="section__content_left">
+          <p>
+            <span>
+              <img src='/../image/talents/exp.png' />
+            </span>
+            <span>
+              Experience
+            </span>
+          </p>
+          <p>
+            <span>
+              <img src='/../image/talents/search.png' />
+            </span>
+            <span>
+              Open to
+            </span>
+          </p>
+          <p>
+            <span>
+              <img src='/../image/talents/skills.png' />
+            </span>
+            <span>
+              Skills
+            </span>
+          </p>
+          <div className="share__btn">
+            <ProfileOutlined style={{ fontSize: '25px' }} />
+            <ShareAltOutlined style={{ fontSize: '25px' }} />
+          </div>
         </div>
-        <div>
-          <span>1 year 5 months</span>
+        <div className="section__content_right">
+          <p className="time">1 year 5 months</p>
+          <div className="job__des">
+            <RolesJob className='block__role-bold' text="Product Design" />
+          </div>
+          <div className="role__jobs">
+            <RolesJob className='block__role' text="Product Design" number={2} />
+          </div>
+          <div className='btn-group'>
+            <Button type="secondary">Press to view profile</Button>
+          </div>
+
         </div>
-      </Row>
-      <Row
-        className={styles["space-between"]}
-        style={{ paddingBottom: "20px" }}
-      >
-        <div>
-          <i class="fas fa-briefcase"></i>
-          <span> Open to </span>
-        </div>
-        <div>
-          <Button className={styles["time-role-btn"]}>Full time</Button>
-        </div>
-      </Row>
-      <Row
-        className={styles["space-between"]}
-        style={{ paddingBottom: "20px" }}
-      >
-        <div>
-          <i class="fas fa-briefcase"></i>
-          <span> Skills </span>
-        </div>
-        <div>
-          <Space>
-            <Button className={styles["skill-set-btn"]}>Full time</Button>
-            <Button className={styles["skill-set-btn"]}>+2</Button>
-          </Space>
-        </div>
-      </Row>
-      <Row
-        className={styles["space-between"]}
-        style={{ paddingBottom: "20px" }}
-      >
-        <div>
-          <Space>
-            <i class="fas fa-briefcase"></i>
-            <i class="fas fa-briefcase"></i>
-          </Space>
-        </div>
-        <div>
-          <Button className={styles["view-profile-btn"]}>Press to view profile</Button>
-        </div>
-      </Row>
-    </Card>
+      </div>
+    </div>
   );
 }

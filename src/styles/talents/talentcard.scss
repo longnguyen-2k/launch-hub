@@ -1,0 +1,136 @@
+.section--card-talent {
+    background: var(--color-white);
+    border: 1px solid #e8e8ea;
+    border-radius: 12px;
+    // display: grid;
+    // grid-template-columns: repeat(2, minmax(0,1fr));
+    // gap:4rem;
+    padding: 2.4rem 2rem;
+    .section__top {
+        padding-bottom: 2.4rem;
+        gap: 2.4rem;
+        display: flex;
+        justify-content: space-between;
+        &_left {
+            display: flex;
+            gap: 2.4rem;
+            .card__avt {
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 6px;
+                }
+            }
+            .card__name {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                color: #181a2a;
+            }
+            .card__job-title {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: #6e7191;
+            }
+        }
+
+        .card__social-image {
+            display: flex;
+            justify-content: space-between;
+            gap: 1.2rem;
+        }
+    }
+    .card__viewed {
+        border: 1px solid rgba(105, 106, 117, 0.3);
+        border-radius: 6px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #007c89;
+        text-align: center;
+    }
+    .section__content {
+        padding-top: 2.4rem;
+        display: flex;
+        justify-content: space-between;
+        &_left {
+            p {
+                display: flex;
+                
+                gap: 1.2rem;
+                margin: 0;
+                span {
+                    padding: 1rem 0;
+                    font-family: var(--font-family);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6e7191;
+                }
+            }
+            .share__btn {
+                padding-right: 2.4rem;
+                padding-top:1.2rem;
+                display: flex;
+                gap: 1.2rem;
+                align-items: center;
+               
+              }
+        }
+        &_right {
+            p {
+                // display: flex;
+                // justify-content: flex-end;
+                gap: 1.2rem;
+                margin: 0;
+                font-family: var(--font-family);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .time {
+                display: flex;
+                justify-content: flex-end;
+                gap: 1.2rem;
+                margin: 0;
+                padding: 1rem 0;
+                font-family: var(--font-family);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #181a2a;
+            }
+
+            .job__des {
+                display: flex;
+                justify-content: right;
+                // padding:1.2rem 0;
+            }
+            .role__jobs {
+                display: flex;
+                justify-content: right;
+                // padding:1.2rem 0;
+
+            }
+           .btn-group{
+            padding-top: 2rem;
+            button {
+                width: 300px;
+                height: 36px;
+                background: #52525b;
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                color: var(--color-white);
+            }
+           }
+           
+        }
+    }
+}
