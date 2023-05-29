@@ -54,11 +54,11 @@ export default function Footer() {
               <div className="footer__sharing">
                 <div className="footer__subscribe">
                   <h5 className="footer__subscribe_title">Weekly Newsletter</h5>
-                  <p>Stay up-to-date with our latest news and offers.</p>
+                  <p>Get blog articles and offers via email</p>
                   <Input
                     suffix={<MailOutlined />}
-                    placeholder="Search for event"
-                    style={{ width: '320px', color: '#A1A1AA', borderBottom: '1px solid #E8E8EA', height: "40px" }}
+                    placeholder="Your email"
+                    style={{ width: '320px', color: '#A1A1AA', height: "40px" }}
                   />
                   {/* <input type="email" placeholder="Enter your email address" /> */}
                 
@@ -71,11 +71,11 @@ export default function Footer() {
            <div>
             <img src="/image/Copyright-Info.png" />
            </div>
-           <div className='footer__bottom-right'>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-           </div>
+           <ul className='footer__bottom-right'>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+           </ul>
           </div>
         </div>
       </footer>
