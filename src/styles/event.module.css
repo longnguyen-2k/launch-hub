@@ -57,8 +57,14 @@
   width: 100%;
   white-space: normal;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .card_organizer {
   word-wrap: break-word;

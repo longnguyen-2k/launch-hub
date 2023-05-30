@@ -63,10 +63,10 @@ export default function CardTalent() {
         <div className="section__content_right">
           <p className="time">1 year 5 months</p>
           <div className="job__des">
-            <RolesJob className='block__role-bold' text="Product Design" />
+            <RolesJob className='block__role-bold' text="Product Design" number_type={false}/>
           </div>
           <div className="role__jobs">
-            <RolesJob className='block__role' text="Product Design" number={2} />
+            <RolesJob className='block__role' text="Product Design" number_type={true} number={2} />
           </div>
           <div className='btn-group'>
             <Button type="secondary">Press to view profile</Button>
