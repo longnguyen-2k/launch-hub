@@ -2,15 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../../styles/role/role.scss';
 
-const RolesJob = ({ text, number = undefined, className = '' }) => {
+const RolesJob = ({ text, number_type = undefined, number = 0, className = '' }) => {
+  // Convert the number prop to a number explicitly
+  const parsedNumber = typeof number === 'string' ? parseFloat(number) : number;
+
   return (
     <div className={className}>
       <div className='block__role_title'>
         <p>{text}</p>
       </div>
-      {number !== undefined && (
+      {number_type && (
         <div className='block__number_label'>
-         +{number ? number : '0'}
+          +{parsedNumber}
         </div>
       )}
     </div>
@@ -19,7 +22,8 @@ const RolesJob = ({ text, number = undefined, className = '' }) => {
 
 RolesJob.propTypes = {
   text: PropTypes.string.isRequired,
-  number: PropTypes.bool,
+  number_type: PropTypes.bool,
+  number: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   className: PropTypes.string,
 };
 

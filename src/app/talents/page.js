@@ -149,7 +149,6 @@ export default function Page() {
                         <CardTalent />
                         <CardTalent />
                         <CardTalent />
-
                         </div >
                        
                     </div>

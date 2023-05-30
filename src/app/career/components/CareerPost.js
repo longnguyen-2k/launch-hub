@@ -19,7 +19,7 @@ const CareerPost = () => {
                 </div>
             </div>
             <div className="block__right">
-                <RolesJob className='block__role' text="Full time role" number="2" />
+                <RolesJob className='block__role' text="Full time role" number_type={true} number="2" />
                 <div className="block__des">
                     <p>A startup that provides an AI-powered video editing platform for social media creators.</p>
                 </div>

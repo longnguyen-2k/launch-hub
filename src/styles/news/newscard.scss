@@ -54,6 +54,13 @@
       font-family: var(--font-family);
       color: var(--color-text);
       font-size: 20px;
+      text-overflow: ellipsis;
+       display: -webkit-box;
+       -webkit-line-clamp: 3;
+       line-clamp: 3;
+       -webkit-box-orient: vertical;
+       overflow: hidden;
+
     }
     .card__author {
       display: grid;
