@@ -4,7 +4,7 @@ import '../../styles/home.scss'
 import { Button } from 'antd';
 import { ArrowRightOutlined, CheckCircleOutlined } from '@ant-design/icons';
 
-export default function page() {
+export default function HomePage() {
   return (
     <div className='container'>
       <div className='home__block1'>

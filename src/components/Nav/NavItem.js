@@ -3,7 +3,7 @@ import "../../styles/navbar.css";
 
 const NavItem = ({ text, href, active }) => {
   return (
-    <Link href={href}>
+    <Link href={href} prefetch={false}>
       <div
         className={`nav__item ${
           active ? "active" : ""

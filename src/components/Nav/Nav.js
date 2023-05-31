@@ -19,7 +19,7 @@ const Navbar = () => {
         <header>
             <div className="container">
                 <nav className={`nav`}>
-                    <Link href={"/"}>
+                    <Link href={"/"} prefetch={false}>
                         <img src="/image/logo.png" alt="me" />
                     </Link>
                     <div
@@ -42,7 +42,7 @@ const Navbar = () => {
                         ))}
                     </div>
                     <div className="nav__icon">
-                        <Link href="/auth/signin">
+                        <Link href="/auth/signin" prefetch={false}>
                             <Icon path={mdiAccountOutline} size={1.8} />
                         </Link>
                     </div>

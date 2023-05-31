@@ -15,7 +15,7 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="section--header">
-          <Link href="/">
+          <Link href="/" prefetch={false} >
             <img src="/image/logo.png" alt="me" />
           </Link>
           {/* <ul>
@@ -46,7 +46,7 @@ export default function Header() {
             </li>
           </ul> */}
           <div className="header__icon">
-            <Link href="/auth/signin">
+            <Link href="/auth/signin" prefetch={false} >
               <Icon path={mdiAccountOutline} size={1} />
             </Link>
           </div>

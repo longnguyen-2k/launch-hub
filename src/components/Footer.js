@@ -23,27 +23,27 @@ export default function Footer() {
                 <h5>Quick Links</h5>
                 <ul className="footer__list">
                   <li>
-                    <Link className="footer__list_item" href={HOME_PAGE_PATH.path}>
+                    <Link className="footer__list_item" href={HOME_PAGE_PATH.path} prefetch={false} >
                       {HOME_PAGE_PATH.description}
                     </Link>
                   </li>
                   <li>
-                    <Link className="footer__list_item" href={NEWS_PAGE_PATH.path}>
+                    <Link className="footer__list_item" href={NEWS_PAGE_PATH.path} prefetch={false} >
                       <span className="nav-link">{NEWS_PAGE_PATH.description}</span>
                     </Link>
                   </li>
                   <li>
-                    <Link className="footer__list_item" href={EVENT_PAGE_PATH.path}>
+                    <Link className="footer__list_item" href={EVENT_PAGE_PATH.path} prefetch={false} >
                       <span className="nav-link">{EVENT_PAGE_PATH.description}</span>
                     </Link>
                   </li>
                   <li>
-                    <Link className="footer__list_item" href={CAREER_PAGE_PATH.path}>
+                    <Link className="footer__list_item" href={CAREER_PAGE_PATH.path} prefetch={false} >
                       <span className="nav-link">{CAREER_PAGE_PATH.description}</span>
                     </Link>
                   </li>
                   <li>
-                    <Link className="footer__list_item" href={TALENT_PAGE_PATH.path}>
+                    <Link className="footer__list_item" href={TALENT_PAGE_PATH.path} prefetch={false} >
                       <span className="nav-link">{TALENT_PAGE_PATH.description}</span>
                     </Link>
                   </li>
