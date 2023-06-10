@@ -10,6 +10,8 @@ export default function page() {
             </div>
             <div className={styles['text-header']}> Upcoming Events (19) </div>
             <GalleryEvents/>
+            <div className={styles['text-header']}> Completed events (130)</div>
+            <GalleryEvents/>
         </div>
     );
 }
