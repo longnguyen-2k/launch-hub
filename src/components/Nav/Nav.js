@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 import Icon from '@mdi/react';
 import { mdiAccountOutline } from '@mdi/js';
 const MENU_LIST = [
-    { text: "Home", href: "/" },
+    { text: "Home", href: "/home" },
     { text: "News", href: "/news" },
     { text: "Event", href: "/events" },
     { text: "Career", href: "/career" },
@@ -26,7 +26,6 @@ const Navbar = () => {
                         onClick={() => setNavActive(!navActive)}
                         className={`nav__menu-bar`}
                     >
-
                     </div>
                     <div className={`${navActive ? "active" : ""} nav__menu-list`}>
                         {MENU_LIST.map((menu, idx) => (

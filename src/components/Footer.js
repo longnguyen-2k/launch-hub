@@ -29,22 +29,22 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link className="footer__list_item" href={NEWS_PAGE_PATH.path}>
-                      <span className="nav-link">{NEWS_PAGE_PATH.description}</span>
+                      {NEWS_PAGE_PATH.description}
                     </Link>
                   </li>
                   <li>
                     <Link className="footer__list_item" href={EVENT_PAGE_PATH.path}>
-                      <span className="nav-link">{EVENT_PAGE_PATH.description}</span>
+                      {EVENT_PAGE_PATH.description}
                     </Link>
                   </li>
                   <li>
                     <Link className="footer__list_item" href={CAREER_PAGE_PATH.path}>
-                      <span className="nav-link">{CAREER_PAGE_PATH.description}</span>
+                      {CAREER_PAGE_PATH.description}
                     </Link>
                   </li>
                   <li>
                     <Link className="footer__list_item" href={TALENT_PAGE_PATH.path}>
-                      <span className="nav-link">{TALENT_PAGE_PATH.description}</span>
+                      {TALENT_PAGE_PATH.description}
                     </Link>
                   </li>
                 </ul>
@@ -61,21 +61,21 @@ export default function Footer() {
                     style={{ width: '320px', color: '#A1A1AA', height: "40px" }}
                   />
                   {/* <input type="email" placeholder="Enter your email address" /> */}
-                
+
                 </div>
                 <button className="footer__button" type="submit">Subscribe</button>
               </div>
             </div>
           </div>
           <div className="footer__bottom">
-           <div>
-            <img src="/image/Copyright-Info.png" />
-           </div>
-           <ul className='footer__bottom-right'>
-            <li>Terms of Use</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-           </ul>
+            <div>
+              <img src="/image/Copyright-Info.png" />
+            </div>
+            <ul className='footer__bottom-right'>
+              <li>Terms of Use</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+            </ul>
           </div>
         </div>
       </footer>

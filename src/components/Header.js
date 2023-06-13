@@ -18,7 +18,7 @@ export default function Header() {
           <Link href="/">
             <img src="/image/logo.png" alt="me" />
           </Link>
-          {/* <ul>
+          <ul>
             <li>
               <Link href={HOME_PAGE_PATH.path}>
                 {HOME_PAGE_PATH.description}
@@ -26,28 +26,28 @@ export default function Header() {
             </li>
             <li>
               <Link href={NEWS_PAGE_PATH.path}>
-                <span>{NEWS_PAGE_PATH.description}</span>
+               {NEWS_PAGE_PATH.description}
               </Link>
             </li>
             <li>
               <Link href={EVENT_PAGE_PATH.path}>
-                <span>{EVENT_PAGE_PATH.description}</span>
+                {EVENT_PAGE_PATH.description}
               </Link>
             </li>
             <li>
               <Link href={CAREER_PAGE_PATH.path}>
-                <span>{CAREER_PAGE_PATH.description}</span>
+               {CAREER_PAGE_PATH.description}
               </Link>
             </li>
             <li>
               <Link href={TALENT_PAGE_PATH.path}>
-                <span>{TALENT_PAGE_PATH.description}</span>
+               {TALENT_PAGE_PATH.description}
               </Link>
             </li>
-          </ul> */}
+          </ul>
           <div className="header__icon">
             <Link href="/auth/signin">
-              <Icon path={mdiAccountOutline} size={1} />
+              <Icon path={mdiAccountOutline} size={1.5} />
             </Link>
           </div>
         </div>
